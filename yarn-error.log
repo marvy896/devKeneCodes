@@ -14,8 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: read ECONNRESET
-      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+  Error: EPERM: operation not permitted, unlink 'C:\Users\onyex\Documents\devKeneCodes\node_modules\deasync\bin\win32-x64-node-18\deasync.node'
 
 npm manifest: 
   {
