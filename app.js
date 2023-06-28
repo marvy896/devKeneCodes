@@ -7,6 +7,7 @@ import About from "./src/about";
 import Body from "./src/body";
 import ContactForm from "./src/contact";
 import { HashLink as Link } from "react-router-hash-link";
+import TechPortfolio from "./src/project";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         </Routes>
           <Link to="#about" element={<About />} />
           <Link to="#contactForm" element={<ContactForm />} />
+          <Link to="#project" element={<TechPortfolio />} />
       </BrowserRouter>
     </div>
   );

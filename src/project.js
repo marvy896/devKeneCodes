@@ -7,7 +7,7 @@ const TechPortfolio = () => {
   };
 
   return (
-    <div className="wrapper">
+    <section className="wrapper" id="project">
       <h1>Kene's Major Projects</h1>
       <div className="cols">
         <div className="col" onTouchStart={handleCardHover}>
@@ -158,7 +158,7 @@ const TechPortfolio = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

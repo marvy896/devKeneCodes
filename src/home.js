@@ -21,6 +21,7 @@ const navItems = [
   { label: 'Home', url: '/' },
   { label: 'About', url: '#about' },
   { label: 'Contact', url: '#contactForm' },
+  { label: 'Projects', url: '#project' },
 ];
 
 function DrawerAppBar(props) {

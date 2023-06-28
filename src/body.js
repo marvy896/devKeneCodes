@@ -1,5 +1,5 @@
 import React from "react";
-import TechPortfolio from "./flipImg";
+import TechPortfolio from "./project";
 import Footer from "./footer";
 import ContactForm from "./contact";
 import About from "./about";
