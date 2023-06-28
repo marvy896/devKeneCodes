@@ -1,6 +1,8 @@
 import React from "react";
 import TechPortfolio from "./flipImg";
 import Footer from "./footer";
+import ContactForm from "./contact";
+import About from "./about";
 
 export default function Body() {
   return (
@@ -24,6 +26,8 @@ export default function Body() {
         </div>
       </div>
       <TechPortfolio />
+      <About />
+      <ContactForm />
       <Footer />
     </div>
   );

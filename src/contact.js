@@ -6,6 +6,7 @@ import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import  "./Contact.css" 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "./footer";
 
 export default function ContactForm(){
   const {
@@ -64,6 +65,7 @@ export default function ContactForm(){
 
   return (
     <div className='ContactForm'>
+      <h2>Contact Me</h2>
       <div className='container'>
         <div className='row'>
           <div className='col-12 text-center'>
