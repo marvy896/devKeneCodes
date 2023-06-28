@@ -64,7 +64,7 @@ export default function ContactForm(){
   };
 
   return (
-    <div className='ContactForm'>
+    <section className='ContactForm' id="contactForm" smooth>
       <h2>Contact Me</h2>
       <div className='container'>
         <div className='row'>
@@ -158,6 +158,6 @@ export default function ContactForm(){
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

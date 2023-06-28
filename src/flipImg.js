@@ -19,8 +19,7 @@ const TechPortfolio = () => {
               <div className="inner">
                 <p>E-commerce Website</p>
                 <span>
-                  Building an E-commerce Website with React, 
-                  TypeScript &
+                  Building an E-commerce Website with React, TypeScript &
                   Node.js
                 </span>
               </div>
@@ -29,8 +28,8 @@ const TechPortfolio = () => {
               <div className="inner">
                 <p>
                   Building an E-commerce website using React, TypeScript,
-                  Node.js, and CSS offers a powerful and flexible foundation for
-                  creating a feature-rich online store.
+                  Node.js offers a flexible foundation for creating an online
+                  store.
                 </p>
               </div>
             </div>
@@ -52,9 +51,9 @@ const TechPortfolio = () => {
             <div className="back">
               <div className="inner">
                 <p>
-                  The weather app built with React, TypeScript, and a Weather
-                  API provides users with an intuitive and visually appealing
-                  interface to access current and forecasted weather conditions
+                  The weather app built with TypeScript and a Weather API
+                  provides users with a visually appealing interface to access
+                  current target.
                 </p>
               </div>
             </div>
@@ -77,9 +76,9 @@ const TechPortfolio = () => {
             <div className="back">
               <div className="inner">
                 <p>
-                  The group chat application, built with Socket, React,
-                  TypeScript, and CSS, provides users with a dynamic and
-                  interactive platform for real-time communication.
+                  The group chat application, built with Socket, React &
+                  TypeScript provides interactive platform for real-time
+                  communication.
                 </p>
               </div>
             </div>
@@ -126,9 +125,9 @@ const TechPortfolio = () => {
             <div className="back">
               <div className="inner">
                 <p>
-                  AI chatbot with Python and a predefined intent framework
-                  empowers businesses to deliver personalized and efficient
-                  support to their customers
+                  AI chatbot withd a predefined intent framework
+                  empowers businesses to deliver efficient support to their
+                  customers
                 </p>
               </div>
             </div>
@@ -151,7 +150,7 @@ const TechPortfolio = () => {
               <div className="inner">
                 <p>
                   Schools can create a digital ecosystem that simplifies
-                  administrative tasks, enhances collaboration, and strengthens
+                  administrative tasks and strengthens
                   the school community as a whole.
                 </p>
               </div>

@@ -3,7 +3,7 @@ import './About.css'; // Import the CSS file for styling
 
 export default function About() {
   return (
-    <div className="about-container">
+    <section className="about-container" id='about' smooth>
       <h2>About Dev Kenechukwu</h2>
       <p>
         Dev Kenechukwu is a talented full-stack engineer from Nigeria. He has expertise in developing web applications using modern technologies such as React, TypeScript, Node.js, MySQL, and MongoDB.
@@ -20,6 +20,6 @@ export default function About() {
       <p>
         Whether it's building interactive user interfaces, optimizing server-side performance, or designing database schemas, Dev Kenechukwu is committed to creating innovative solutions that drive business growth and improve user satisfaction.
       </p>
-    </div>
+    </section>
   );
 }

@@ -9,7 +9,7 @@
     font-size: 2.5rem;
     font-family: 'Montserrat';
     font-weight: normal;
-    color: #444;
+    color: #ffffff;
     text-align: center;
     margin: 2rem 0;
   }
@@ -62,7 +62,7 @@
     min-height: 280px;
     height: auto;
     border-radius: 10px;
-    color: #fff;
+    color: #ffffff;
     font-size: 1.5rem;
   }
   
@@ -168,12 +168,13 @@
     right: 0;
     margin: 0 auto;
     bottom: -.75rem;
+    font-size: x-small;
   }
   
   .front .inner span {
     color: rgba(255, 255, 255, 0.7);
     font-family: 'Montserrat';
-    font-weight: 300;
+    font-weight: 300px;
   }
   
   @media screen and (max-width: 64rem) {

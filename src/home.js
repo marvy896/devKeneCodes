@@ -14,12 +14,13 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const drawerWidth = 240;
 const navItems = [
   { label: 'Home', url: '/' },
-  { label: 'About', url: '/about' },
-  { label: 'Contact', url: '/contact' },
+  { label: 'About', url: '#about' },
+  { label: 'Contact', url: '#contactForm' },
 ];
 
 function DrawerAppBar(props) {
