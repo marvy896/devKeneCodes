@@ -8,7 +8,7 @@ const TechPortfolio = () => {
 
   return (
     <div className="wrapper">
-      <h1>Parallax Flipping Cards</h1>
+      <h1>Kene's Major Projects</h1>
       <div className="cols">
         <div className="col" onTouchStart={handleCardHover}>
           <div className="container">
@@ -19,7 +19,8 @@ const TechPortfolio = () => {
               <div className="inner">
                 <p>E-commerce Website</p>
                 <span>
-                  Building an E-commerce Website with React, TypeScript &
+                  Building an E-commerce Website with React, 
+                  TypeScript &
                   Node.js
                 </span>
               </div>

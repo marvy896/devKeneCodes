@@ -109,6 +109,7 @@
     transform: translateY(-50%) translateZ(60px) scale(0.94);
     top: 50%;
     position: absolute;
+    font-size:xx-small;
     left: 0;
     width: 100%;
     padding: 2rem;

@@ -1,5 +1,6 @@
 import React from "react";
 import TechPortfolio from "./flipImg";
+import Footer from "./footer";
 
 export default function Body() {
   return (
@@ -23,6 +24,7 @@ export default function Body() {
         </div>
       </div>
       <TechPortfolio />
+      <Footer />
     </div>
   );
 }

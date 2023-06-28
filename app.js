@@ -5,18 +5,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./src/home";
 import About from "./src/about";
 import Body from "./src/body";
-
+import ContactForm from "./src/contact";
 
 export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Home />
+        <Home />
         <Routes>
-          <Route path="/" element={<Body/>}>
-            <Route path="/about" element={<About />} />
-            {/* <Route path="/portfolio" element={<Portfolio />} /> */}
-          </Route>
+          <Route path="/" element={<Body />}></Route>
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<ContactForm />} />
         </Routes>
       </BrowserRouter>
     </div>
