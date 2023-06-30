@@ -1,5 +1,4 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./src/home";
@@ -17,9 +16,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Body />}></Route>
         </Routes>
-          <Link to="#about" element={<About />} />
-          <Link to="#contactForm" element={<ContactForm />} />
-          <Link to="#project" element={<TechPortfolio />} />
+          <Link smooth to="#about" element={<About />} />
+          <Link smooth to="#contactForm" element={<ContactForm />} />
+          <Link smooth to="#project" element={<TechPortfolio />} />
       </BrowserRouter>
     </div>
   );

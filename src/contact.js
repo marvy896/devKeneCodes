@@ -4,9 +4,8 @@ import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
-import  "./Contact.css" 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from "./footer";
+import  "./Contact.css" 
 
 export default function ContactForm(){
   const {

@@ -9,19 +9,19 @@
     font-size: 2.5rem;
     font-family: 'Montserrat';
     font-weight: normal;
-    color: #ffffff;
+    color: #444;
     text-align: center;
     margin: 2rem 0;
   }
   
   .wrapper {
-    width: 90%;
+    width: 100%;
     margin-top: 300px;
     margin-bottom: 50px;
     max-width: 80rem;
   }
   
-  .cols {
+  .colls {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -32,13 +32,18 @@
     justify-content: center;
   }
   
-  .col {
+  .coll {
     width: calc(25% - 2rem);
     margin: 1rem;
     cursor: pointer;
   }
-  
-  .container {
+  .aboutbothers {
+    border-top: 100px solid transparent;
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+  .containers {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     -webkit-perspective: 1000px;
@@ -62,7 +67,7 @@
     min-height: 280px;
     height: auto;
     border-radius: 10px;
-    color: #ffffff;
+    color: #fff;
     font-size: 1.5rem;
   }
   
@@ -89,8 +94,8 @@
     border-radius: 10px;
   }
   
-  .container:hover .front,
-  .container:hover .back {
+  .containers:hover .front,
+  .containers:hover .back {
     -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
     transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
     -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -123,28 +128,28 @@
     z-index: 2;
   }
   
-  .container .back {
+  .containers .back {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
   }
   
-  .container .front {
+  .containers .front {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
   }
   
-  .container:hover .back {
+  .containers:hover .back {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
   }
   
-  .container:hover .front {
+  .containers:hover .front {
     -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
     -webkit-transform-style: preserve-3d;
@@ -178,19 +183,19 @@
   }
   
   @media screen and (max-width: 64rem) {
-    .col {
+    .coll {
       width: calc(33.333333% - 2rem);
     }
   }
   
   @media screen and (max-width: 48rem) {
-    .col {
+    .coll {
       width: calc(50% - 2rem);
     }
   }
   
   @media screen and (max-width: 32rem) {
-    .col {
+    .coll {
       width: 100%;
       margin: 0 0 2rem 0;
     }
